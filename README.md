@@ -35,7 +35,7 @@
 |||
 | :----- | :----- |
 | Solution URL: | [Frontend Mentor - Time Tracking Dashboard Main](https://www.frontendmentor.io/solutions/time-tracking-dashboard-main-ddAT4_WqVo) |
-| Live Site URL: | <a target href="https://jvssvj.github.io/Time-Tracking-Dashboard-Main/" target="_blank">Time Tracking Dashboard Main</a>
+| Live Site URL: | <a target href="https://time-tracking-dashboard-main-navy-beta.vercel.app/" target="_blank">Time Tracking Dashboard Main</a>
 |||
 
 <br>
