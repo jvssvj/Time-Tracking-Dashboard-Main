@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/favicon-32x32.png">
+
+  <link rel="stylesheet" href="assets/css/index.css">
+  <script src="index.js" defer></script>
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+  <body>
+    <main class="main">
+      <section class="section__person">
+        <div class="person__profile">
+          <img class="person__image" src="assets/images/image-jeremy.png" alt="Jeremy Image">
+          <div class="person__text">
+            <span class="person__report">Report for</span>
+            <h1 class="person__name">Jeremy Robson</h1>
+          </div>
+        </div>
+        
+        <div class="section__person__btns">
+          <input type="button" value="Daily" id="daily--btn" class="section__person__btns__btn" data-frequency="daily">
+          <input type="button" value="Weekly" id="weekly--btn" class="section__person__btns__btn" data-frequency="weekly">
+          <input type="button" value="Monthly" id="monthly--btn" class="section__person__btns__btn" data-frequency="monthly">
+        </div>
+      </section>
+  
+      <div class="card__work card__activity">
+        <div class="work__background card__activity__background">
+          <img class="card__activity__background__img" src="assets/images/icon-work.svg" alt="">
+        </div>
+  
+        <div class="work__infos card__activity__infos">
+          <div class="work__infos__title__div card__activity__title__div">
+            <span class="work__title__txt card__activity__title__txt"></span>
+            <img class="work__title__img card__activity__title__ellipsis" src="assets/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="work__previous__div card__activity__previous__div">
+            <span class="work__hours card__activity__hours">32hrs</span>
+            <span class="work__last__hours card__activity__last__hours">36hrs</span>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card__play card__activity">
+        <div class="play__background card__activity__background">
+          <img class="card__activity__background__img" src="assets/images/icon-play.svg" alt="">
+        </div>
+  
+        <div class="play__infos card__activity__infos">
+          <div class="play__infos__title__div card__activity__title__div">
+            <span class="play__title__txt card__activity__title__txt"></span>
+            <img class="play__title__img card__activity__title__ellipsis" src="assets/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="play__previous__div card__activity__previous__div">
+            <span class="play__hours card__activity__hours">10hrs</span>
+            <span class="play__last__hours card__activity__last__hours">8hrs</span>
+          </div>
+
+        </div>
+      </div>
+  
+      <div class="card__study card__activity">
+        <div class="study__background card__activity__background">
+          <img class="card__activity__background__img" src="assets/images/icon-study.svg" alt="">
+        </div>
+  
+        <div class="study__infos card__activity__infos">
+          <div class="study__infos__title__div card__activity__title__div">
+            <span class="study__title__txt card__activity__title__txt"></span>
+            <img class="study__title__img card__activity__title__ellipsis" src="assets/images/icon-ellipsis.svg" alt="">
+          </div>
+  
+          <div class="study__previous__div card__activity__previous__div">
+            <span class="study__hours card__activity__hours">4hrs</span>
+            <span class="study__last__hours card__activity__last__hours">7hrs</span>  
+          </div>
+
+        </div>
+      </div>
+  
+      <div class="card__exercise card__activity">
+        <div class="exercise__background card__activity__background">
+          <img class="card__activity__background__img" src="assets/images/icon-exercise.svg" alt="">
+        </div>
+  
+        <div class="exercise__infos card__activity__infos">
+          <div class="exercise__infos__title__div card__activity__title__div">
+            <span class="exercise__title__txt card__activity__title__txt"></span>
+            <img class="exercise__title__img card__activity__title__ellipsis" src="assets/images/icon-ellipsis.svg" alt="">
+          </div>
+          
+          <div class="exercise__previous__div card__activity__previous__div">
+            <span class="exercise__hours card__activity__hours">4hrs</span>
+            <span class="exercise__last__hours card__activity__last__hours">5hrs</span>  
+          </div>
+
+        </div>
+      </div>
+  
+      <div class="card__social card__activity">
+        <div class="social__background card__activity__background">
+          <img class="card__activity__background__img" src="assets/images/icon-social.svg" alt="">
+        </div>
+  
+        <div class="social__infos card__activity__infos">
+          <div class="social__infos__title__div card__activity__title__div">
+            <span class="social__title__txt card__activity__title__txt"></span>
+            <img class="social__title__img card__activity__title__ellipsis" src="assets/images/icon-ellipsis.svg" alt="">
+          </div>
+          
+          <div class="social__previous__div card__activity__previous__div">
+            <span class="social__hours card__activity__hours">5hrs</span>
+            <span class="social__last__hours card__activity__last__hours">10hrs</span>
+          </div>
+
+        </div>
+      </div>
+  
+      <div class="card__selfcare card__activity">
+        <div class="selfcare__background card__activity__background">
+          <img class="card__activity__background__img" src="assets/images/icon-self-care.svg" alt="">
+        </div>
+  
+        <div class="selfcare__infos card__activity__infos">
+          <div class="selfcare__infos__title__div card__activity__title__div">
+            <span class="selfcare__title__txt card__activity__title__txt"></span>
+            <img class="selfcare__title__img card__activity__title__ellipsis" src="assets/images/icon-ellipsis.svg" alt="">
+          </div>
+          
+          <div class="selfcare__previous__div card__activity__previous__div">
+            <span class="selfcare__hours card__activity__hours">2hrs</span>
+            <span class="selfcare__last__hours card__activity__last__hours">2hrs</span> 
+          </div>
+
+        </div>
+      </div>
+      
+    </main>
+
+    <footer class="attribution">
+      <p >Challenge by <a href="https://www.frontendmentor.io/profile/jvssvj" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-62b518263/" target="_blank">João Vitor</a></p>
+    </footer>
+
+    
+  </body>
+</html>

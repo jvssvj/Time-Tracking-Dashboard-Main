@@ -1,0 +1,127 @@
+@import url('../global/variables.css');
+
+/* CARDS START */
+/* CARDS START */
+/* CARDS START */
+.card__activity {
+    position: relative;
+}
+
+.card__activity__background {
+    text-align: end;
+    border-radius: 1rem;
+    height: 72px;
+    overflow: hidden;
+}
+
+.card__activity__background__img {
+    margin: 0rem .9rem 0em 0em;
+    width: 70px;
+}
+
+.work__background {
+    background-color: var(--Light-red-work);
+} 
+
+.play__background {
+    background-color: var(--Soft-blue-play);
+}
+
+.study__background {
+    background-color: var(--Light-red-study);
+}
+
+.exercise__background {
+    background-color: var(--Lime-green-exercise);
+}
+
+.social__background {
+    background-color: var(--Violet-social);
+}
+
+.selfcare__background {
+    background-color: var(--Soft-orange-self-care);
+}
+
+.card__activity__infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -1.5em;
+    width: 100%;
+    position: absolute;
+    border-radius: 1rem;
+    padding: 1.5em;
+    background-color: var(--Dark-blue);
+    height: 200px;
+    transition: .5s ease;
+}
+
+.card__activity__infos:hover {
+    background-color: var(--Desaturated-blue);
+}
+/* CARDS END */
+/* CARDS END */
+/* CARDS END */
+
+/* CARD INFOS START */
+/* CARD INFOS START */
+/* CARD INFOS START */
+.card__activity__title__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.card__activity__title__txt {
+    color: var(--White);
+}
+
+.card__activity__title__ellipsis {
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.card__activity__title__ellipsis:active {
+    transform: scale(0.92);
+}
+
+.card__activity__hours {
+    display: block;
+    margin-bottom: .5rem;
+    font-size: var(--font48px);
+    color: var(--White);
+    font-weight: var(--fontWeight300);
+}
+
+.card__activity__last__period,
+.card__activity__last__hours {
+    color: var(--Pale-Blue);
+    font-size: .9375rem;
+}
+/* CARD INFOS END */
+/* CARD INFOS END */
+/* CARD INFOS END */
+
+@media(max-width:590px) {
+    .card__activity__previous__div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card__activity__infos {
+        height: 116px;
+        padding: 1.3em;
+    }
+
+    .card__activity__title__div {
+        margin-bottom: .5em;
+    }
+
+    .card__activity__hours {
+        margin-bottom: unset;
+        font-size: 1.9rem;
+    }
+}

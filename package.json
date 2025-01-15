@@ -1,0 +1,18 @@
+{
+  "name": "time-tracking-dashboard-main",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <img src=\"https://www.frontendmentor.io/static/images/logo-mobile.svg\" alt=\"frontendmentor\" width=\"80\">\r   <h1>Frontend Mentor - Time Tracking Dashboard Main</h1>\r   <a href=\"https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw\"><strong>Frontend Mentor Challenge</strong></a>\r </div>",
+  "main": "public/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {}
+}

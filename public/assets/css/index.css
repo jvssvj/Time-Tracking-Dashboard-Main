@@ -1,0 +1,62 @@
+@import url('../css/global/global.css');
+@import url('../css/global/variables.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    font-size: var(--font18px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Very-dark-blue);
+}
+
+.main {
+    display: grid;
+    grid-template-rows: repeat(2, 245px);
+    grid-template-columns: repeat(4, 255px);
+    gap: 1.686em;
+}
+
+.attribution {
+    position: absolute;
+    text-align: center;
+    margin-top: 64em;
+    font-size: var(--font15px);
+    padding: .5rem;
+    color: var(--White);
+}
+
+.attribution a {
+    color: var(--Lime-green-exercise);
+}
+
+@media(max-width:1125px) {
+    .main {
+        grid-template-rows: repeat(4, 245px);
+        grid-template-columns: repeat(2, 255px);
+        padding: .5em; /* Margin */
+    }
+
+    .attribution {
+        position: relative;
+        margin-top: 5em;
+    }
+}
+
+@media(max-width:590px) {
+    .main {
+        grid-template-rows: 204px repeat(6, 162px);
+        grid-template-columns: minmax(auto, 500px);
+        padding: 1.3em; /* Margin */
+        gap: 1.3em;
+    }
+}
